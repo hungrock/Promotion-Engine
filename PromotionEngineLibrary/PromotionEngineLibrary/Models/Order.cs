@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PromotionEngineLibrary
 {
-    public class Class1
-    {
-    }
+  public class Order
+  {
+    public List<Item> Items;
+    public double TotalAmount;
+  }
 }
